@@ -35,7 +35,7 @@ class _CameraScreenState extends State<CameraScreen> {
   void initState() {
     super.initState();
     // Remember to replace 'YOUR_API_KEY' with your actual Gemini API Key
-    _geminiService = GeminiOcrService('AIzaSyDY220c_dwbu0_KddVxiCzNxjANtnYWTvc');
+    _geminiService = GeminiOcrService('YOUR-API_KEY');
     _historyService = SqfliteHistoryService();
     _requestPermissions();
     if (widget.initialMode == 'gallery') {
